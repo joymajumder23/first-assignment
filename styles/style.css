@@ -1,24 +1,59 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
+/* header styles */
 .banner {
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    margin: 50px 140px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    padding: 177px 0;
-    max-width: 82%;
+    background-position: center;
+    padding: 140px;
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+
 }
 
 .banner-content {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    padding: 170px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.banner-greeting {
     font-family: 'Merriweather', serif;
     color: #FFF;
     text-align: center;
+    font-size: 32px;
 }
 
-.banner-greeting {}
-
-.banner-title {}
+.banner-title {
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 16px;
+}
+/* main styles */
+#section-main{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.section-discount{
+    font-size: 88px;
+    color: #F00;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+.section-des{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 5px;
+}
+.section-title{
+    color: #070211;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 48px;
+}
