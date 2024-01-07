@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    margin: 50px 140px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 177px 0;
+    max-width: 82%;
+}
+
+.banner-content {
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    text-align: center;
+}
+
+.banner-greeting {}
+
+.banner-title {}
