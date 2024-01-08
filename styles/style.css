@@ -235,3 +235,26 @@ display: flex;
 gap: 20px;
 }
 /* news letter design */
+#newsletter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+    margin: 0 auto; 
+    margin-top: 100px;
+}
+.newsletter-content{
+    text-align: center;
+    padding: 80px;
+}
+.newsletter-content .newsletter-text{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.newsletter-content .newsletter-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
