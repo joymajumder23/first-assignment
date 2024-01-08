@@ -169,6 +169,7 @@ main {
     text-transform: uppercase;
 
 }
+
 /* what is function styles */
 #offer {
     text-align: center;
@@ -201,11 +202,13 @@ main {
     max-width: 1320px;
     margin: 0px 250px;
 }
-#portfolio{
+
+#portfolio {
     max-width: 1320px;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
-.gifts-text{
+
+.gifts-text {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
@@ -213,7 +216,8 @@ main {
     margin-top: 120px;
     margin-bottom: 10px;
 }
-.portfolio-text{
+
+.portfolio-text {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -221,7 +225,8 @@ main {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.portfolio-des{
+
+.portfolio-des {
     font-family: Inter;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -230,31 +235,60 @@ main {
     margin-top: 15px;
     margin-bottom: 40px;
 }
-#portfolio .portfolio-content{
-display: flex;
-gap: 20px;
+
+#portfolio .portfolio-content {
+    display: flex;
+    gap: 20px;
 }
+
 /* news letter design */
-#newsletter{
+#newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     max-width: 1320px;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 100px;
 }
-.newsletter-content{
+
+.newsletter-content {
     text-align: center;
     padding: 80px;
 }
-.newsletter-content .newsletter-text{
+
+.newsletter-content .newsletter-text {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
 }
-.newsletter-content .newsletter-des{
+
+.newsletter-content .newsletter-des {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+#newsletter form {
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#newsletter button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 24px 56px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
